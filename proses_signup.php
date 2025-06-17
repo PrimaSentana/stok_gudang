@@ -1,5 +1,5 @@
 <?php
-include 'db.php';
+include 'actions/db.php';
 
 $username = $_POST['username'];
 $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
