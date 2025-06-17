@@ -11,7 +11,7 @@ $user = mysqli_fetch_assoc($data);
 if($user && password_verify($password, $user['password'])){
     $_SESSION['username'] = $username;
     $_SESSION['status'] = "login";
-    header("location: main.php");
+    header("location: produk/main.php");
 } else {
     header("location: login.php?pesan=gagal");
 }
