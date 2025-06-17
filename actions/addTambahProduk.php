@@ -26,5 +26,8 @@
 
     mysqli_query($koneksi, "INSERT INTO produk (kode_produk, nama_produk, deskripsi, satuan, harga_beli, harga_jual, stok_minimal) VALUES ('$kode_produk', '$nama_produk', '$deskripsi', '$satuan', '$harga_beli', '$harga_jual', '$stok_minimal')");
 
+
+
+
     header('location:../produk/main.php');    
 ?>
