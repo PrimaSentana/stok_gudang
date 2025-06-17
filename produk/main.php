@@ -12,6 +12,15 @@
       overflow: hidden; /* Hindari scroll pada body */
     }
 
+    .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            width: 400px;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+            text-align: center;
+    }
+
     .sidebar {
       position: fixed;
       top: 0;
