@@ -53,14 +53,14 @@
 </head>
 <body>
     <div class="container">
-        <h2>Create Account</h2>
+        <h2>Buat Akun</h2>
         <form method="POST" action="proses_signup.php">
             <input type="text" name="username" placeholder="Username" required>
             <input type="password" name="password" placeholder="Password" required>
-            <button type="submit">Sign Up</button>
+            <button type="submit">Daftar</button>
         </form>
         <div class="link">
-            <p><a href="login.php">Already have an account? Login!</a></p>
+            <p><a href="login.php">Sudah punya akun? Masuk!</a></p>
         </div>
     </div>
 </body>
