@@ -6,6 +6,6 @@
     }
 
     if ($koneksi) {
-        echo "Berhasil Connect";
+        echo "Berhasil Gung Rama";
     }
 ?>
