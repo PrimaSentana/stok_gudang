@@ -53,15 +53,25 @@
 </head>
 <body>
     <div class="container">
-        <h2>Welcome Back!</h2>
-        <p>Please Login</p>
+        <h2>Selamat Datang!</h2>
+        <p>Silakan login untuk melanjutkan</p>
+        <?php
+        if (isset($_GET['pesan'])) {
+            if ($_GET['pesan'] == "gagal") {
+                echo "<p style='color: red;'>Username atau Password salah!</p>";
+            } elseif ($_GET['pesan'] == "signup_berhasil") {
+                echo "<p style='color: green;'>Registrasi berhasil! Silakan login.</p>";
+            }
+        }  
+        ?>
+        
         <form method="POST" action="cek_login.php">
             <input type="text" name="username" placeholder="Username" required>
             <input type="password" name="password" placeholder="Password" required>
             <button type="submit">Login</button>
         </form>
         <div class="link">
-            <p><a href="signup.php">Create an Account!</a></p>
+            <p><a href="signup.php">Buat Akun!</a></p>
         </div>
     </div>
 </body>
