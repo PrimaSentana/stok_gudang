@@ -26,7 +26,7 @@
 
       <div class="mb-3 d-flex justify-content-between">
         <div>
-          <a href="produk/viewTambahProduk.php"><button class="btn btn-primary">Tambah Produk</button></a>
+          <a href="viewTambahProduk.php"><button class="btn btn-primary">Tambah Produk</button></a>
         </div>
         <div>
           <input type="date" class="form-control d-inline-block" style="width: auto;">
