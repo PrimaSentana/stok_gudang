@@ -6,6 +6,6 @@
     }
 
     if ($koneksi) {
-        echo "Berhasil Terhubung";
+        echo "Berhasil Connect";
     }
 ?>
