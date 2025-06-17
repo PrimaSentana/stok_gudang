@@ -52,7 +52,7 @@
         </thead>
         <tbody>
             <?php
-                include 'actions/db.php';
+                include '../actions/db.php';
 
                 $no = 1;
                 $data = mysqli_query($koneksi,"SELECT * FROM produk");
